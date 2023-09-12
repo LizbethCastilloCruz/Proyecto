@@ -1,0 +1,134 @@
+/* Estilos generales */
+body {
+    font-family: serif, sans-serif;
+    background-color: #black; /* Fondo gris claro */
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #fff; /* Texto en blanco */
+    padding: 20px;
+    text-align: center;
+    }
+
+
+h2  {
+    color: #fff; /* Texto en blanco */
+    padding: 20px;
+    text-align: center;
+    }
+
+P  {
+    color: #fff; /* Texto en blanco */
+    padding: 20px;
+    text-align: center;
+    }
+
+header {
+    background-color: #9b9b9b; /* Color salmón pastel */
+    color: #fff; /* Texto en blanco */
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Texto en blanco */
+    font-weight: bold;
+}
+TH 
+{
+    text-decoration: none;
+    color: #fff; /* Texto en blanco */
+    font-weight: bold;
+}
+TD
+{
+    text-decoration: none;
+    color: #fff; /* Texto en blanco */
+    font-weight: bold;
+}
+
+/* Estilos para el contenido principal */
+.contenido {
+    background-color: #000000; /* Fondo blanco */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos para la sección de servicios */
+.servicios {
+    background-color: #ffebcd; /* Color albaricoque pastel */
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilos para el pie de página */
+footer {
+    text-align: center;
+    background-color: #9b9b9b; /* Color gris*/
+    color: #fff; /* Texto en blanco */
+    padding: 10px;
+}
+
+
+
+
+/* Estilo para enlaces no visitados */
+a:link {
+  text-decoration: none; /* Elimina el subrayado predeterminado */
+  color: #C5FCF4 ; /* Color de texto para enlaces no visitados */
+  transition: color 0.3s; /* Transición suave del color al pasar el cursor */
+}
+
+/* Estilo para enlaces visitados */
+a:visited {
+  color: #560bad; /* Color de texto para enlaces visitados */
+}
+
+/* Estilo para enlaces al pasar el cursor */
+a:hover {
+  color: #ff6b6b; /* Color de texto al pasar el cursor sobre el enlace */
+  text-decoration: underline; /* Agrega un subrayado al pasar el cursor */
+}
+
+/* Estilo para enlaces activos (cuando se hace clic en ellos) */
+a:active {
+  color: #003f5c; /* Color de texto para enlaces activos */
+}
+
+/* Cambiar el cursor a una mano al pasar el cursor sobre los enlaces */
+a {
+  cursor: pointer;
+}
+
+/* Espaciado entre enlaces */
+a {
+  margin-right: 10px; /* Agrega espacio a la derecha de los enlaces */
+}
+
+/* Fuentes elegantes para los enlaces (ajusta según tus preferencias) */
+a {
+  font-family: 'Helvetica Neue', sans-serif;
+  font-weight: 400;
+}
+
+/* Agregar un efecto suave de sombra al pasar el cursor (opcional) */
+a:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
